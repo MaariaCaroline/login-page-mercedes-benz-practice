@@ -24,6 +24,8 @@
   .fb {
     background-color: #3B5998;
     color: white;
+    width: 50%;
+    
   }
   
   .twitter {
@@ -73,16 +75,17 @@
   margin : auto;
   display: inline-block;
   margin-left: 35px;
-  margin-bottom: 35px;
 }
 #emailHelp {
   display: inline-block;
   margin-left: 35px;
 }
-.login {
-  margin-left: 550px;
-  margin-top: 30px;
-  width: 80px;
+#loginButton {
+  width: 600px;
+  margin : auto;
+  display: inline-block;
+  margin-left:10px;
+  margin-top: 15px;
 }
 #rememberme {
   margin-left: 15px;
@@ -91,9 +94,31 @@
   margin-left: 10px;
 }
 #reginsternow {
-  margin-left: 10px;
-  font-size: 40px;
+  margin-left: 25px;
+  font-size: 15px;
   text-decoration: none;
+  text-align: center;
+  color:black;
+}
+#fbButton {
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+#TwButton {
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+#GGButton {
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+#forgotpassword {
+  margin-left: 20px;
 }
   
   
